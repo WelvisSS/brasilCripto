@@ -1,0 +1,34 @@
+class AppException implements Exception {
+  final String? message;
+  final String? prefix;
+
+  AppException([this.message, this.prefix]);
+
+  @override
+  String toString() {
+    return '$prefix$message';
+  }
+}
+
+class FetchDataException extends AppException {
+  FetchDataException([String? message])
+    : super(message, "Error During Communication");
+}
+
+class BadRequestException extends AppException {
+  BadRequestException([String? message]) : super(message, "Invalid request");
+}
+
+class UnauthorizedException extends AppException {
+  UnauthorizedException([String? message])
+    : super(message, "Unauthorized request");
+}
+
+class InvalidInputException extends AppException {
+  InvalidInputException([String? message]) : super(message, "Invalid Input");
+}
+
+class RateLimitExceededException extends AppException {
+  RateLimitExceededException([String? message])
+    : super(message, "Você excedeu o limite de requisições.");
+}
