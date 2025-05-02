@@ -25,9 +25,13 @@ Navegação simplificada e injeção de dependência automática, mantendo o pro
 ### 🖼️ Cache de Imagens para Uso Offline
 Uso de estratégia de cache na lista de favoritos para exibição de imagem offline.
 
+## 🤖 Apk para teste
+Disponível no diretório:
+```bash
+apk/brasilCripto.apk
+```
 
-
-# 🚀 Como instalar e executar o projeto Flutter
+## 🚀 Como instalar e executar o projeto Flutter
 
 ## 📦 Requisitos
 
