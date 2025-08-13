@@ -1,3 +1,14 @@
+## 📱 Resultado
+
+<p align="center">
+  <img src="screenshots/tela1.jpeg" width="30%" />
+  <img src="screenshots/tela2.jpeg" width="30%" />
+  <img src="screenshots/tela3.jpeg" width="30%" />
+  <img src="screenshots/tela4.jpeg" width="30%" />
+  <img src="screenshots/tela5.jpeg" width="30%" />
+  <img src="screenshots/tela6.jpeg" width="30%" />
+</p>
+
 ## 🧠 Decisões Técnicas
 
 ### 🔁 Uso de Debounce
@@ -65,14 +76,3 @@ Execute o comando:
 ```bash
 flutter run
 ```
-
-## 📱 Resultado
-
-<p align="center">
-  <img src="screenshots/tela1.jpeg" width="30%" />
-  <img src="screenshots/tela2.jpeg" width="30%" />
-  <img src="screenshots/tela3.jpeg" width="30%" />
-  <img src="screenshots/tela4.jpeg" width="30%" />
-  <img src="screenshots/tela5.jpeg" width="30%" />
-  <img src="screenshots/tela6.jpeg" width="30%" />
-</p>
